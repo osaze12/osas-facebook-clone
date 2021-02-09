@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC,EAAE,CAAA;EACN,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,EAAE;EACX,SAAS,EAAE,KAAK;CACnB;;AACD,AAAA,OAAO,CAAC,EAAE,CAAA;EACN,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,GAAG;EAClB,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "LeftSideCenter.scss"
+    ],
+    "names": [],
+    "file": "LeftSideCenter.css"
+}

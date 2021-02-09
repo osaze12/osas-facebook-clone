@@ -1,0 +1,70 @@
+.imgFeed .small_img img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  border: 3px solid #1876f2;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imgFeed .big_img img {
+  width: 100px;
+  height: 200px;
+  opacity: .9;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.imgFeed .big_img {
+  background: #757575;
+}
+
+.imgFeed {
+  position: relative;
+  width: 100px;
+  height: 200px;
+  -webkit-box-shadow: #d2d2d2 2px 2px 2px;
+          box-shadow: #d2d2d2 2px 2px 2px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.img-name {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  color: #fff;
+  font-size: 1em;
+  line-height: 16.08px;
+}
+
+.imgFeed:hover {
+  -webkit-filter: brightness(0.9);
+          filter: brightness(0.9);
+}
+
+.img-name p {
+  max-width: 70px;
+}
+
+.imgContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  .imgFeed {
+    width: 80px;
+    height: 150px;
+  }
+}
+/*# sourceMappingURL=ImgFeed.css.map */

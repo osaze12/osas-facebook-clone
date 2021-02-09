@@ -1,0 +1,121 @@
+$grey-color: #e4e6eb;
+$grey-icon-color: #606770;
+$hover-color: #edeff5;
+$normal-color: rgb(22, 21, 21);
+$white: #fff;
+$input-bg: #f0f2f5;
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    box-shadow: 1px 1px 2px #d1d1d1;
+    margin-top: 5px;
+
+    position: fixed;
+    z-index: 1;
+    background: $white;
+    width: 100%;
+    margin: 0;
+}
+.nav .nav__left{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav .nav__center{
+    display: flex;
+    flex:3;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav .nav__center svg{
+    font-size: 1.5em;
+    color: $grey-icon-color
+}
+.nav .nav__right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav .nav__right a:last-child{
+    margin-right: 15px;
+}
+.nav .nav__right .navInner{
+    margin-right: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: $normal-color;
+    outline: none;
+}
+.nav__right svg{
+    color:$normal-color;
+}
+.nav__logo{
+    color: #0a82ec;
+    font-size: 2.5em !important;
+    margin-right: 5px;
+    
+}
+.nav .nav__right .round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e4e6eb;
+    border-radius: 100px;
+    padding: 14px 15px;
+    width: 12px;
+}
+.nav__search form{
+    position: relative;
+}
+.nav__search form input{
+    border: none;
+    outline: none;
+    background: $input-bg;
+    padding: 10px 35px;
+    border-radius: 20px;
+    color: $grey-icon-color;
+    font-size: .9em;
+}
+.nav__search .nav__search_icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: $grey-icon-color;
+}
+.nav__center .navInner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.nav .nav__right .round:hover, .nav__center .navInner:hover{
+  background:$hover-color;
+}
+
+@media screen and (max-width:500px){
+    
+    .nav__search form{
+        display: none;
+    }
+}
+@media screen and (max-width: 679px){
+    .nav .nav__center{
+        display:none;
+    }
+}
+@media screen and (min-width:959px){
+    .nav__center .navInner{
+         padding:10px 40px;
+    }
+   
+}
+
+

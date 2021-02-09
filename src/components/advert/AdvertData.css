@@ -1,0 +1,62 @@
+.advert__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+button {
+  border: none;
+  background: #e7f3ff;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button a {
+  color: #1876f2;
+}
+
+.advert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.advert__main h1 {
+  font-size: 1.1em;
+}
+
+.advert__center {
+  font-size: 1.2em;
+  color: green;
+  font-size: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  color: #0e8df1;
+  font-size: 1.5em;
+}
+
+.hide {
+  font-size: 1em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=AdvertData.css.map */

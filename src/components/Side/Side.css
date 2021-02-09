@@ -1,0 +1,24 @@
+.side {
+  padding: 9px 9px 15px 12px;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+}
+
+.side-container {
+  position: relative;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 851px) {
+  .side-container {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=Side.css.map */

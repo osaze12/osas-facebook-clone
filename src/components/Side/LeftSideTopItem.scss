@@ -1,0 +1,83 @@
+$grey-color: #e4e6eb;
+$text-color: #5d5d5d;
+$hover-color: #e0e2e7;
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.2em;
+    
+}
+.item:hover{
+    width: 300px;
+}
+.item img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+.item a{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 250px;
+    border-radius: 9px;
+}
+.item a:hover{
+    // padding-r
+    border-radius: 5px;
+    background-color: $hover-color;
+    
+}
+.item p:first-child{
+    margin-right: 15px;
+    margin-left: 5px;
+    color:$text-color;
+    color: #1e8de6;
+    border-radius: 100px;
+    padding: 2px;
+}
+.item p:last-child{
+    color:$text-color;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.leftSideTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sideTop_first{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: #1e8de6;
+    border-radius: 100px;
+    padding: 2px;
+}
+.leftSideTop .round .sideTop_first{
+    color: grey;
+    background: #e0e0e0;
+    padding: 10px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftSideTop .round p:first-child{
+
+    
+    color: $text-color;
+    background: $grey-color;
+    border-radius: 100px;
+    padding:8px 9px;
+    width: 15px;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+
+    
+}

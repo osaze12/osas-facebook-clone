@@ -1,0 +1,35 @@
+.rightSide{
+    overflow-y: scroll;
+	height: 700;
+	max-width: 300px;
+	position: fixed;
+	right: 0;
+	overflow-x: hidden;
+}
+.rightSide::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.rightSide::-webkit-scrollbar
+{
+	border:none;
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.rightSide::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #cecece;
+}
+.right-container{
+	position: relative;
+    width: 310px;
+    margin-right: 15px;
+}
+
+@media screen and (max-width:1175px){
+	.right-container{display: none;}
+}

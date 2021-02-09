@@ -1,0 +1,30 @@
+$hover-color: #e0e2e7;
+$text-color: #5d5d5d;
+
+
+
+.sideCenter img{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.sideCenter{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 9px 0;
+    border-radius: 9px;
+}
+
+.sideCenter p{
+    max-width: 200px;
+    color: $text-color;
+    font-weight: bold;
+   
+    font-size: 15px;
+}
+.sideCenter:hover{
+    background-color: $hover-color;
+}

@@ -1,0 +1,25 @@
+.buttom-links {
+  margin-top: 5px;
+  font-size: .8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 250px;
+  line-height: 1.5;
+}
+
+.buttom-links a {
+  font-weight: normal;
+}
+
+.buttom-links p {
+  padding: 0 3px;
+}
+
+.buttom-links p, .buttom-links span, .buttom-links a {
+  color: #818387;
+  font-size: 1em;
+}
+/*# sourceMappingURL=LeftSideButtom.css.map */

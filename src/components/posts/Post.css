@@ -1,0 +1,123 @@
+.post_img {
+  margin: 9px -19px;
+}
+
+.post_img img {
+  width: 100%;
+  height: auto;
+}
+
+.post_top p:first-child {
+  font-weight: 600;
+}
+
+.post_top p:last-child {
+  font-size: .8em;
+}
+
+.user_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 35px;
+  height: 35px;
+  border-radius: 999px;
+  margin-right: 8px;
+}
+
+.user_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post_top .time {
+  color: #7d676b;
+}
+
+.user_desc {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.user_desc .user_text {
+  color: #050505;
+  font-size: .9em;
+}
+
+.post_bottom span {
+  color: whitesmoke;
+  background: #0373e4;
+  border-radius: 50%;
+  padding: 3px 7px;
+  width: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: .7em;
+  margin-right: 5px;
+}
+
+.post_bottom p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post_bottom .updates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post_bottom hr {
+  margin-top: 10px;
+  background: #f0f2f5;
+  opacity: .5;
+}
+
+.bottom_inner p {
+  cursor: pointer;
+  width: 100%;
+  padding: 5px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 6px;
+  margin-top: 3px;
+}
+
+.bottom_inner p:hover {
+  background-color: #f0f0f0;
+}
+
+.post_bottom .bottom_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-weight: 600;
+  color: grey;
+}
+/*# sourceMappingURL=Post.css.map */

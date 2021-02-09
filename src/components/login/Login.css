@@ -1,0 +1,50 @@
+.login .formInput input {
+  border: none;
+  background: #e8e8e8;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin: 7px 0;
+  outline: none;
+}
+
+.login form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .logo span {
+  font-size: 5em;
+}
+
+.login {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login .logo {
+  margin: 10px 0;
+}
+
+.login button {
+  background-color: #0e8df1;
+  color: #fff;
+}
+/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,20 @@
+.side{
+    padding: 9px 9px 15px 12px;
+    overflow: auto;
+    // max-width: 300px;
+    position: fixed;
+    left: 0;
+}
+
+.side-container{
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:851px){
+    .side-container{
+        display: none !important;
+    }
+}
